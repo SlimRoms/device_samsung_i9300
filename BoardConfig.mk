@@ -53,9 +53,8 @@ TARGET_RECOVERY_INITRC := device/samsung/i9300/recovery.rc
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/i9300/overlay/include
 
 # Kernel
-#TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_PREBUILT_KERNEL := device/samsung/i9300/kernel
-#TARGET_KERNEL_CONFIG := cyanogenmod_i9300_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
+TARGET_KERNEL_CONFIG := cyanogenmod_i9300_defconfig
 BOARD_KERNEL_CMDLINE := "console=ttySAC2,115200"
 BOARD_KERNEL_BASE := 0x40000000
 BOARD_KERNEL_PAGESIZE := 2048
