@@ -1,8 +1,8 @@
 [
   {
-	"repository": "CyanogenMod/android_device_samsung_i9300",
-	"target_path": "device/samsung/i9300"
-	"branch": "jellybean"
+	"repository":   "TheMuppets/proprietary_vendor_samsung",
+	"target_path":  "vendor/samsung",
+	"branch":     "jellybean"
   }
 ]
 
