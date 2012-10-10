@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
 #copy kernel and modules
 PRODUCT_COPY_FILES += \
 	device/samsung/i9300/prebuilt/kernel/i9300/boot.img:system/slimkernel/boot.img \
-	device/samsung/i9300/prebuilt/kernel/i9100/zImage:kernel \
+	device/samsung/i9100/prebuilt/kernel/i9100/zImage:kernel \
 	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/Si4709_driver.ko:system/lib/modules/Si4709_driver.ko \
 	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
 	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/cifs.ko:system/lib/modules/cifs.ko \
