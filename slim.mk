@@ -32,7 +32,7 @@ PRODUCT_COPY_FILES += \
 	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/cifs.ko:system/lib/modules/cifs.ko \
 	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/commkm.ko:system/lib/modules/commkm.ko \
 	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
-	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/dnsresolver.ko:system/lib/modules/dnsresolver.ko \
+	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/dns_resolver.ko:system/lib/modules/dns_resolver.ko \
 	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/mvpkm.ko:system/lib/modules/md4.ko \
 	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/mvpkm.ko:system/lib/modules/mvpkm.ko \
 	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/md4.ko:system/lib/modules/pvtcpkm.ko \
