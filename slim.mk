@@ -28,14 +28,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	device/samsung/i9300/prebuilt/kernel/i9300/boot.img:system/slimkernel/boot.img \
 	device/samsung/i9100/prebuilt/kernel/i9100/zImage:kernel \
-	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/Si4709_driver.ko:system/lib/modules/Si4709_driver.ko \
-	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
-	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/cifs.ko:system/lib/modules/cifs.ko \
-	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/pvtcpkm.ko:system/lib/modules/pvtcpkm.ko \
-	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/mvpkm.ko:system/lib/modules/mvpkm.ko \
 	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/btlock.ko:system/lib/modules/btlock.ko \
+	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/cifs.ko:system/lib/modules/cifs.ko \
+	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/commkm.ko:system/lib/modules/commkm.ko \
 	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
-	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/commkm.ko:system/lib/modules/commkm.ko
+	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/dnsresolver.ko:system/lib/modules/dnsresolver.ko \
+	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/mvpkm.ko:system/lib/modules/md4.ko \
+	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/mvpkm.ko:system/lib/modules/mvpkm.ko \
+	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/md4.ko:system/lib/modules/pvtcpkm.ko \
+	device/samsung/i9300/prebuilt/kernel/i9300/system/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9300
