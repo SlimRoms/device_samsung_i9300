@@ -1,8 +1,13 @@
 [
   {
-	"repository":   "TheMuppets/proprietary_vendor_samsung",
+	"repository":   "SlimRoms/proprietary_vendor_samsung",
 	"target_path":  "vendor/samsung",
-	"branch":     "jellybean"
+	"branch":     "jb"
+  },
+  {
+	"repository": "CyanogenMod/android_kernel_samsung_smdk4412",
+	"target_path": "kernel/samsung/smdk4412",
+	"branch": "jellybean"
   }
 ]
 
