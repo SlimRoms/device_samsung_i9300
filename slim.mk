@@ -17,6 +17,9 @@ $(call inherit-product, device/samsung/i9300/full_i9300.mk)
 # Inherit device settings
 $(call inherit-product, vendor/slim/config/common_sgs.mk)
 
+# Inherit torch settings
+$(call inherit-product, vendor/slim/config/common_ledflash.mk)
+
 PRODUCT_COPY_FILES +=  \
     vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
