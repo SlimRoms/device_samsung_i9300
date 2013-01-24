@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.android.nfc_extras
 
+# Enhanced NFC
 $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
 # RIL
