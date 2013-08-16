@@ -1,22 +1,22 @@
 [
     {
-        "repository": "CyanogenMod/android_device_samsung_smdk4412-common",
+        "repository": "SlimRoms/device_samsung_smdk4412-common",
         "target_path": "device/samsung/smdk4412-common",
-        "branch": "cm-10.1"
+        "branch": "jb4.3"
     },
     {
         "repository": "SlimRoms/kernel_samsung_smdk4412",
         "target_path": "kernel/samsung/smdk4412",
-        "branch": "jb4.2"
+        "branch": "jb4.3"
     },
     {
         "repository": "SlimRoms/hardware_samsung",
         "target_path": "hardware/samsung",
-        "branch": "jb4.2"
+        "branch": "jb4.3"
     },
     {
         "repository": "SlimRoms/proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
-        "branch": "jb4.2"
+        "branch": "jb4.3"
     }
 ]

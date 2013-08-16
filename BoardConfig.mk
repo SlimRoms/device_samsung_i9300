@@ -32,6 +32,10 @@ TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := slim_i9300_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro/bin/arm-linux-gnueabihf-
 
+# Recovery
+TARGET_RECOVERY_FSTAB := device/samsung/i9300/rootdir/fstab.smdk4x12
+RECOVERY_FSTAB_VERSION := 2
+
 # assert
 TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300
 
