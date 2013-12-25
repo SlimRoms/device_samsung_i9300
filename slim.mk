@@ -11,9 +11,6 @@ $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/slim/config/gsm.mk)
 
-# Inherit torch settings
-$(call inherit-product, vendor/slim/config/common_ledflash.mk)
-
 # Release name
 PRODUCT_RELEASE_NAME := i9300
 
