@@ -19,5 +19,5 @@
 
 <resources>
     <!-- Allows setting video size before recording starts -->
-    <bool name="needsEarlyVideoSize">true</bool>
+    <!--bool name="needsEarlyVideoSize">true</bool-->
 </resources>
