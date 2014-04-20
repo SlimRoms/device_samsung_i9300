@@ -18,6 +18,5 @@
 -->
 
 <resources>
-    <!-- Allows setting video size before recording starts -->
-    <!--bool name="needsEarlyVideoSize">true</bool-->
+    <bool name="cancelAutoFocusOnPreviewStopped">false</bool>
 </resources>
