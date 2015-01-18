@@ -30,8 +30,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9300/bluetooth
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_KERNEL_CONFIG := slim_i9300_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-13.04/bin/arm-linux-gnueabihf-
+TARGET_KERNEL_CONFIG := custom_i9300_defconfig
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/i9300/rootdir/fstab.smdk4x12
@@ -39,10 +38,6 @@ RECOVERY_FSTAB_VERSION := 2
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300
-
-COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS
-
-TARGET_PROVIDES_CAMERA_HAL := true
 
 # inherit from the proprietary version
 -include vendor/samsung/i9300/BoardConfigVendor.mk
