@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
 
 # Product specific Packages
 PRODUCT_PACKAGES += \
-    DeviceSettings \
     libsecril-client \
     libsecril-client-sap \
     SamsungServiceMode \
@@ -60,15 +59,11 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-	nfc.exynos4 \
+    nfc.exynos4 \
     libnfc \
     libnfc_jni \
     Nfc \
     Tag
-
-# Camera Wrapper
-PRODUCT_PACKAGES += \
-    camera.exynos4
 
 PRODUCT_COPY_FILES += \
     packages/apps/Nfc/migrate_nfc.txt:system/etc/updatecmds/migrate_nfc.txt \
